@@ -2,8 +2,8 @@ package com.foodtruck;
 
 
 public class FoodTruck {
-    private Integer Latitude_1;
-    private Integer Longitude_1;
+    private double Latitude_dev;
+    private double Longitude_dev;
     private String locationid;
     private String Applicant;
     private String cnn;
