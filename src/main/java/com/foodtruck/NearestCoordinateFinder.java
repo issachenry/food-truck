@@ -23,8 +23,8 @@ public class NearestCoordinateFinder {
                 .withType(FoodTruck.class).build().parse();
         FoodTruck target = new FoodTruck();
         // 根据经纬度找出距离当前位置最近的FoodTruck
-        target.setLatitude(37.7600869319869);
-        target.setLongitude(-122.418806481101);
+        target.setLatitude(99999999999999999999999999999999999999);
+        target.setLongitude(5555555555555555555555555555555555555555555555555555);
         Optional<FoodTruck> nearest = findNearestCoordinate(foodTrucks, target);
         nearest.ifPresent(foodTruck -> System.out.println(JsonUtil.toJson(foodTruck)));
     }
