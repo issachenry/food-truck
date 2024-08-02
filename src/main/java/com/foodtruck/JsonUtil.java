@@ -15,7 +15,7 @@ public class JsonUtil {
     private JsonUtil() {
     }
 
-    private static ObjectMapper objectMapper = null;
+    private static ObjectMapper objectMapper = new ObjectMapper();
 
     /**
      * Include.ALWAYS
